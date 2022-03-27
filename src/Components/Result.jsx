@@ -51,7 +51,11 @@ export default function Result() {
                   />
                 </h2>
               </a>
-              <p>{snippet}</p>
+              <p>
+                {snippet
+                  .replace(/<span class="searchmatch">/g, "")
+                  .replace(/<\/span>/g, "")}
+              </p>
               <p>{timestamp.slice(0, 10)}</p>
             </div>
           ))}

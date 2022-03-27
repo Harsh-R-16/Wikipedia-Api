@@ -127,9 +127,7 @@ a + p {
   color: rgb(70, 69, 69);
   line-height: 130%;
 }
-span {
-  font-weight: bold;
-}
+
 h3 {
   text-align: center;
   margin-top: 10vh;
