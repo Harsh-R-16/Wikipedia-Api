@@ -1,4 +1,4 @@
-# Wikipedia Api
+# Wikipedia Api Demo
 
 ### Link: https://wikipedia-api-harsh.netlify.app/
 
